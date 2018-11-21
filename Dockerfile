@@ -15,5 +15,5 @@ COPY run-jfrog-cli.sh /app
 
 RUN chmod 777 "/app/run-jfrog-cli.sh"
 
-CMD ["sh","-c", "/src/scripts/run-jfrog-cli.sh"]
+CMD ["sh","-c", "/app/run-jfrog-cli.sh"]
 
