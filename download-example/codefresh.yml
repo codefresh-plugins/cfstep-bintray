@@ -15,7 +15,7 @@ steps:
     working_directory: download-example/
     environment:
       - BINTRAY_COMMAND=dlv
-      - BINTRAY_ARGS= codefresh-demo/test/cf-demo/v4.0 --unpublished
+      - BINTRAY_ARGS=codefresh-demo/test/cf-demo/v4.0 --unpublished
   MyAppDockerImage:
     title: Building Docker Image
     stage: 'Dockerize'
