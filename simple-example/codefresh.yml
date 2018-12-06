@@ -2,7 +2,7 @@ version: '1.0'
 steps:
   FindTensorFlowDetails:
     title: Quering Bintray
-    image:  r.cfcr.io/kostis-codefresh/cfstep-bintray:master
+    image:  codefresh/cfstep-bintray:master
     environment:
       - BINTRAY_COMMAND=package-show
       - BINTRAY_ARGS=google/tensorflow/tensorflow

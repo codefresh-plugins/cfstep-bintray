@@ -17,14 +17,14 @@ steps:
   UploadBinary:
     stage: 'Bintray upload'
     title: upload Go binary to Bintray
-    image: r.cfcr.io/kostis-codefresh/cfstep-bintray:master
+    image: codefresh/cfstep-bintray:master
     environment:
       - BINTRAY_COMMAND=u
       - BINTRAY_ARGS=/codefresh/volume/bin/sample codefresh-demo/test/cf-demo/v7.0 --override
   PublishVersion:
     stage: 'Bintray upload'
     title: Publish Bintray version
-    image: r.cfcr.io/kostis-codefresh/cfstep-bintray:master
+    image: codefresh/cfstep-bintray:master
     environment:
       - BINTRAY_COMMAND=vp
       - BINTRAY_ARGS=codefresh-demo/test/cf-demo/v7.0
