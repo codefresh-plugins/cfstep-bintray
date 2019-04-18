@@ -4,7 +4,7 @@ tag: 0.1.0
 version: 0.1.0
 description: A Codefresh freestyle step to manage releases in JFrog Bintray
 categories:
-- Featured
+- featured
 keywords:
 - jfrog
 - bintray
