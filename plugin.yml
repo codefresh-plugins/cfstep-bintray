@@ -1,5 +1,5 @@
 name: cfstep-bintray
-image: codefresh-plugins/cfstep-bintray
+image: codefreshplugins/cfstep-bintray
 tag: 0.1.0
 version: 0.1.0
 description: A Codefresh freestyle step to manage releases in JFrog Bintray

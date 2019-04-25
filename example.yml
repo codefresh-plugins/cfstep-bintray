@@ -1,7 +1,7 @@
  DownloadNewVersion:
     stage: 'Bintray download'
     title: Download from Bintray
-    image: codefresh/cfstep-bintray:master
+    image: codefreshplugins/cfstep-bintray
     working_directory: download-example/
     environment:
       - BINTRAY_COMMAND=dlv

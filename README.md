@@ -17,7 +17,7 @@ Here is an example for Downloading from Bintray with the `dlv` command (Download
  DownloadNewVersion:
     stage: 'Bintray download'
     title: Download from Bintray
-    image: codefresh/cfstep-bintray:master
+    image: codefreshplugins/cfstep-bintray:master
     working_directory: download-example/
     environment:
       - BINTRAY_COMMAND=dlv
